@@ -10,6 +10,8 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
 ZSH_THEME="agnoster"
+#ZSH_THEME="bira"
+#ZSH_THEME="half-life"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -71,7 +73,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git dnf docker docker-compose command-time command-not-found ubuntu terraform vscode zsh-syntax-highlighting)
+plugins=(git dnf docker docker-compose command-time command-not-found ubuntu terraform vscode zsh-syntax-highlighting zsh-interactive-cd ansible)
 
 source $ZSH/oh-my-zsh.sh
 
